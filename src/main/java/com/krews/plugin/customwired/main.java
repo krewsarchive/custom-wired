@@ -8,6 +8,7 @@ import com.eu.habbo.plugin.EventListener;
 import com.eu.habbo.plugin.HabboPlugin;
 import com.eu.habbo.plugin.events.emulator.EmulatorLoadItemsManagerEvent;
 import com.eu.habbo.plugin.events.emulator.EmulatorLoadedEvent;
+import com.eu.habbo.plugin.events.furniture.FurniturePlacedEvent;
 import com.krews.plugin.customwired.conditions.*;
 import com.krews.plugin.customwired.effects.*;
 import com.krews.plugin.customwired.pluswired.effects.PlusWiredEffectMatchFurniStatePosition;
@@ -28,6 +29,7 @@ public class main extends HabboPlugin implements EventListener {
     public void onDisable() throws Exception {
 
     }
+
 
     @EventHandler
     public void onEmulatorLoadedEvent ( EmulatorLoadedEvent e ) throws Exception {
@@ -70,6 +72,9 @@ public class main extends HabboPlugin implements EventListener {
         Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_act_freeze_habbo", WiredEffectFreezeHabbo.class));
         Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_act_unfreeze_habbo", WiredEffectUnFreezeHabbo.class));
         Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_act_toggle_moodlight", WiredEffectToggleMoodlight.class));
+        Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_act_raise_furni", WiredEffectRaiseFurni.class));
+        Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_act_lower_furni", WiredEffectLowerFurni.class));
+
         // Triggers
         Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_trg_says_command", WiredTriggerHabboSaysCommand.class));
         Emulator.getGameEnvironment().getItemManager().addItemInteraction(new ItemInteraction("wf_trg_idles", WiredTriggerHabboIdle.class));
