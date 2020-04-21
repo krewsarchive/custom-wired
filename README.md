@@ -39,6 +39,8 @@ Effects:
 - wf_act_unfreeze_habbo - Unfreezes a habbo (Harmonic)
 - wf_act_remove_badge - Removes a badge from a users inventory (Harmonic)
 - wf_act_toggle_moodlight - Toggles a moodlight if one is in the room, sets it on or off.
+- wf_act_raise_furni - Raises Furniture.
+- wf_act_lower_furni - Lowers Furniture.
 
 Conditions:
  Writing the rest of this later. bored.
