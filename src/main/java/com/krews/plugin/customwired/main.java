@@ -14,11 +14,13 @@ import com.krews.plugin.customwired.effects.*;
 import com.krews.plugin.customwired.pluswired.effects.PlusWiredEffectMatchFurniStatePosition;
 import com.krews.plugin.customwired.pluswired.triggers.PlusWiredTriggerWalksOnFurni;
 import com.krews.plugin.customwired.triggers.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static com.eu.habbo.Emulator.*;
 
 public class main extends HabboPlugin implements EventListener {
-
+    private static final Logger LOGGER = LoggerFactory.getLogger(Emulator.class);
     public void onEnable() throws Exception {
         Emulator.getPluginManager().registerEvents(this, this);
         if(Emulator.isReady && !Emulator.isShuttingDown) {
@@ -32,8 +34,8 @@ public class main extends HabboPlugin implements EventListener {
 
 
     @EventHandler
-    public void onEmulatorLoadedEvent ( EmulatorLoadedEvent e ) throws Exception {
-        System.out.println("[" + ANSI_BLUE + "OFFICIAL PLUGIN" + ANSI_WHITE + "] " + "Custom Wired (1.0.0) has official loaded!");
+    public void onEmulatorLoadedEvent (EmulatorLoadedEvent e) {
+        LOGGER.info("OFFICIAL PLUGIN - Custom Wired Preview 1 has started!");
     }
 
 
