@@ -8,6 +8,7 @@ Big props to Ridge for designing these! Each Wired included in the plugin, and i
 
 Please Note: You need Arcturus Morningstar 2.4.0 RC-1 or above to use this plugin, otherwise it will not load.
 
+Download: [Click Here](https://git.krews.org/Harmonic/custom-wired/-/releases)
 
 Wired Included
 
@@ -38,12 +39,28 @@ Effects:
 - wf_act_freeze_habbo - Freezes a habbo (Harmonic)
 - wf_act_unfreeze_habbo - Unfreezes a habbo (Harmonic)
 - wf_act_remove_badge - Removes a badge from a users inventory (Harmonic)
-- wf_act_toggle_moodlight - Toggles a moodlight if one is in the room, sets it on or off.
-- wf_act_raise_furni - Raises Furniture.
-- wf_act_lower_furni - Lowers Furniture.
+- wf_act_toggle_moodlight - Toggles a moodlight if one is in the room, sets it on or off. (Harmonic)
+- wf_act_raise_furni - Raises Furniture. (TG + Harmonic)
+- wf_act_lower_furni - Lowers Furniture. (TG + Harmonic)
 
 Conditions:
- Writing the rest of this later. bored.
+
+- wf_cnd_not_battlebz
+- wf_cnd_motto_contains
+- wf_cnd_not_battlebanzai
+- wf_cnd_freeze
+- wf_cnd_not_freeze
+- wf_cnd_habbo_has_rank
+- wf_cnd_habbo_not_rank
+- wf_cnd_not_habbo_has_diamonds
+- wf_cnd_not_habbo_has_credits
+- wf_cnd_not_habbo_has_duckets
+- wf_cnd_habbo_owns_badge
+- wf_cnd_not_habbo_owns_badge
+- wf_cnd_habbo_is_dancing
+- wf_cnd_not_habbo_is_dancing
+- wf_cnd_habbo_not_owns_furni
+- wf_cnd_habbo_owns_furni
 
 
 
