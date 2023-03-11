@@ -8,7 +8,7 @@ Big props to Ridge for designing these! Each Wired included in the plugin, and i
 
 Please Note: You need Arcturus Morningstar 2.4.0 RC-1 or above to use this plugin, otherwise it will not load.
 
-Download Plugin: [Click Here](https://git.krews.org/Harmonic/custom-wired/-/releases)
+Download Plugin: [Click Here](https://git.krews.org/Harmonic/custom-wired/-/blob/master/target/CustomWired-1.0-PREVIEW.jar)
 
 Download SWFS+SQLS+Furnidata: Coming soon oop.
 
